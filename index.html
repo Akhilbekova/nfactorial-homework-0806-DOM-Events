@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+
+
+    <title>Meditation and relax</title>
+</head>
+<body>
+<div class="background">
+    <video id="video-background" muted loop autoplay width="100%" style="filter: blur(5px)">
+        <source src="assets/Meditation.mp4">
+    </video>
+
+    <div class="Music" id="Music">
+        <div class="header">
+            <h1>just relax</h1>
+        </div>
+
+        <div class="center">
+            <div >
+                <div class="playpause-track" id="playpause-track" onclick="playPauseTrack()">
+                    <i class="fa fa-play-circle fa-3x"></i>
+                    <img src="" alt="">
+                </div>
+                <audio src="assets/musicMeditatioin.mp3" id="audio" ></audio>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
+
